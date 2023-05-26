@@ -113,6 +113,11 @@ button {
     text-transform: uppercase;
 }
 
+button:hover {
+    background-color: black;
+    color: white;
+  }
+
 /* IMMAGINI */
 #img-intro {
     background-image: url(../images/banner.jpg);
@@ -156,4 +161,6 @@ footer p {
 
 hr {
     margin: 30px 90px;
+    color: white;
+    size: 2px;
 }
