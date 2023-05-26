@@ -90,6 +90,10 @@ section p {
     margin-bottom: 20px;
 }
 
+#guarantee p:last-child {
+    font-size: 0.8rem;
+}
+
 #introduction {
     width: 100%;
     padding: 0px;
