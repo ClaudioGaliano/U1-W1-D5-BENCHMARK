@@ -16,24 +16,23 @@ body {
 
 header {
     background-color: black;
-    text-align: center;
+    text-align: left;
     width: 100%;
-    height: 100px;
     display: inline-block;
 }
 
 #logo {
-    width: 40vw;
-    padding-top: 25px;
+    width: 6vw;
+    padding: 20px 0px 15px 15px;
 }
 /* ELEMENTI NEL MAIN */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 2.6rem;
+    font-size: 1.8rem;
     line-height: 1;
     color: #25a2c3;
-    padding: 50px 0px 20px 0px ;
+    padding: 120px 0px 20px 0px ;
 }
 
 h3 {
@@ -60,7 +59,7 @@ a {
 
 /* SECTION */
 section {
-    text-align: center;
+    text-align: left;
     font-size: medium;
     padding: 0px 50px;
 }
@@ -68,8 +67,9 @@ section {
 #guarantee {
     background-color: #e22d0e;
     color: white;
-    margin: 50px 0px 50px 0px;
+    margin: 80px 0px 50px 0px;
     height: 260px;
+    text-align: center;
 }
 
 #guarantee h3 {
@@ -85,23 +85,26 @@ section {
 #introduction {
     width: 100%;
     padding: 0px;
+    text-align: center;
 }
 
 #introduction p {
-    padding: 0px 50px;
+    padding: 0px 400px;
 }
 
 /* BOX */
 .box {
-    width: 90%;
-    height: 390px;
+    width: 25%;
     border: solid 1px #dee1e3;
-    margin: 30px auto;
+    margin: 30px 55px;
     padding: 0px;
+    text-align: center;
+    float: left;
 }
 
 .box p {
     padding: 0px 20px;
+    padding-bottom: 30px;
 }
 
 .box h3 {
@@ -128,16 +131,17 @@ button:hover {
 /* IMMAGINI */
 #img-intro {
     background-image: url(../images/banner.jpg);
-    background-size: 600px;
+    background-size: 100%;
     background-position: center top;
     width: 100%;
-    height: 360px;
+    height: 380px;
     margin-bottom: 20px;
 }
 .img-tonda {
     border-radius: 50%;
-    width: 80%;
-    margin-top: 30px;
+    width: 28%;
+    margin: 40px 150px 80px 50px;
+    float: left;
 }
 
 .img-box {
@@ -150,6 +154,8 @@ footer {
     color: #c8e7f0;
     text-align: center;
     height: 320px;
+    margin-top: 550px;
+    padding: 0px 33.3%;
 }
 
 footer h4, i {
@@ -159,15 +165,23 @@ footer h4, i {
 footer h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
-    padding: 30px 0px 20px 0px;
+    padding: 30px 0px 20px 120px;
+    text-align: left;
 }
 
 footer p {
     line-height: 1.65rem;
+    text-align: left;
+    padding-left: 120px;
+}
+
+footer p:last-child {
+    text-align: center;
+    padding: 0px;
 }
 
 hr {
-    margin: 30px 90px;
+    margin: 30px 110px;
     color: white;
     size: 2px;
 }
