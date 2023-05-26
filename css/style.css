@@ -9,15 +9,24 @@ body {
 a
 
 /* HEADER */
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 header {
-    background: black;
+    background-color: black;
     text-align: center;
     width: 100%;
-    display: inline;
+    height: 100px;
+    display: inline-block;
 }
 
 #logo {
     width: 40vw;
+    padding-top: 25px;
 }
 /* ELEMENTI NEL MAIN */
 h1 {
